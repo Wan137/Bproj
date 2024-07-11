@@ -1,7 +1,7 @@
-git clone https://github.com/Wan137/Bproj.git
-python -m venv env
-For windows: env\Scripts\activate
-For mac: source env/bin/activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
+1. git clone https://github.com/Wan137/Bproj.git
+2. python -m venv env
+3. For windows: env\Scripts\activate
+4. For mac: source env/bin/activate
+5. pip install -r requirements.txt
+6. python manage.py migrate
+7. python manage.py runserver
