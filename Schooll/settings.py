@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'drf_yasg',
     'djoser',
+    'django_filters',
 
     
 
@@ -73,13 +74,7 @@ REST_FRAMEWORK = {
 
 FILTERS_BACKEND = 'django_filters.rest_framework.DjangoFilterBackend'
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.example.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True 
-EMAIL_HOST_USER = 'dinislamnasyrbekov@gmail.com' 
-EMAIL_HOST_PASSWORD = 'siptilikata' 
-DEFAULT_FROM_EMAIL = 'dinislamnasyrbekov@gmail.com' 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
 REST_FRAMEWORK = {
